@@ -1,0 +1,380 @@
+/*===Google Fonts===*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+
+/*=======Site Default CSS========*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.col-15 {
+  width: 15%;
+  padding: 0 1.5rem;
+  float: left;
+}
+
+.col-33 {
+  width: 33.33%;
+  padding: 0 1.5rem;
+  float: left;
+}
+
+.col-40 {
+  width: 40%;
+  padding: 0 1.5rem;
+  float: left;
+}
+
+.col-50 {
+  width: 50%;
+  padding: 0 1.5rem;
+  float: left;
+}
+
+.section-padding-top {
+  padding-top: 3rem;
+}
+
+.section-padding-bottom {
+  padding-bottom: 3rem;
+}
+
+img {
+  width: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/*=====01.Header Section CSS Start=====*/
+.site-logo {
+  padding-top: 1.2rem;
+}
+
+.site-logo img {
+  width: 7rem;
+}
+
+.site-menu ul a {
+  padding: 1.5rem 3rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #808080;
+  transition: 0.5s all ease;
+}
+
+.site-menu ul a:hover {
+  color: #000;
+  transition: 0.5s all ease;
+}
+
+.site-menu #active-item {
+  background-color: #000;
+  color: #fff;
+}
+/*=====01.Header Section CSS End=====*/
+
+/*=====02.Main Section CSS Start=====*/
+/*=====Hero Section CSS=====*/
+.hero-section {
+  text-align: center;
+  background-image: url("../assets/img/hero-section-img.svg");
+  color: #fff;
+  padding: 25rem 0;
+}
+
+.hero-section h1 {
+  font-size: 6.5rem;
+  font-weight: 400;
+}
+
+.hero-section h4 {
+  padding: 2.5rem 0 5rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #808080;
+}
+
+.hero-btn {
+  padding: 1.5rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #202020;
+  background-color: #fff;
+  transition: 0.3s all ease;
+}
+
+.hero-btn:hover {
+  background-color: #808080;
+  color: #fff;
+  transition: 0.3s all ease;
+}
+
+/*=====Search Section CSS=====*/
+.search-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-box {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.search-box-left {
+  position: relative;
+}
+
+.search-box-left input {
+  border: none;
+  outline: 0;
+  position: absolute;
+  top: 1rem;
+  left: 5rem;
+}
+
+.search-box-left img {
+  position: absolute;
+  top: 0.5rem;
+}
+
+.search-btn {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s all ease;
+}
+
+.search-btn:hover {
+  background-color: #808080;
+  color: #fff;
+  transition: 0.3s all ease;
+}
+
+.search-img img {
+  max-height: 70rem;
+  width: 100%;
+}
+
+.search-industry {
+  text-align: center;
+}
+
+.search-industry h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: -3.5rem;
+  margin-bottom: 5rem;
+}
+
+.search-industry-icon {
+  width: 90%;
+  margin: 0 auto;
+}
+.search-industry-icon img:not(:last-child) {
+  padding-right: 15rem;
+}
+
+/*=====Feature Section CSS=====*/
+.feature-heading {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature-heading h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  padding-top: 5rem;
+}
+
+.feature-heading h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #808080;
+  padding: 2rem 0 4rem 0;
+  letter-spacing: 0.1rem;
+}
+
+.feature-box {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.feature-box .col-33 {
+  padding: 0 1rem;
+}
+
+.feature-item {
+  margin-left: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+
+.feature-item-img img {
+  width: 100%;
+}
+
+.feature-item-text {
+  color: #fff;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.feature-item-text h4 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.feature-item-text h6 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.5rem 0;
+}
+
+/*=====Newsletter Section CSS=====*/
+.newsletter-section {
+  background-color: #f4f4f4;
+  padding: 10rem 0 15rem 0;
+}
+
+.newsletter-text,
+.newsletter-email-submit {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter-text h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  padding-top: 5rem;
+}
+
+.newsletter-text p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #808080;
+  padding: 2rem 0 4rem 0;
+  letter-spacing: 0.1rem;
+}
+
+#newsletter-email {
+  padding: 2rem 20rem 2rem 2rem;
+  border-radius: 3.2rem;
+  border: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+#newsletter-submit {
+  padding: 2rem 4rem;
+  margin-left: 1rem;
+  border-radius: 3.2rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+#newsletter-submit:hover {
+  background-color: #808080;
+  color: #fff;
+  transition: 0.2s all ease;
+}
+/*=====02.Main Section CSS End=====*/
+
+/*=====03.Footer Section CSS Start=====*/
+.footer-section {
+  padding: 10rem 0rem;
+}
+
+.footer-section .footer-logo img {
+  cursor: pointer;
+}
+
+.footer-section li {
+  display: block;
+}
+
+.footer-section a {
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #808080;
+  text-transform: capitalize;
+  transition: 0.2s all ease;
+}
+
+.footer-section a:hover {
+  color: #000;
+  transition: 0.2s all ease;
+}
+
+.footer-section .footer-head {
+  text-transform: uppercase;
+  color: #000;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.copyright p {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 400;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+/*=====03.Footer Section CSS End=====*/
